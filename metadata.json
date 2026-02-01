@@ -1,0 +1,5 @@
+{
+  "name": "Eclipse: Void Architect",
+  "description": "A companion tool and logic prototyper for Eclipse: Second Dawn for the Galaxy. Features a ship blueprint calculator, combat probability simulator, and AI-powered faction generator.",
+  "requestFramePermissions": []
+}
