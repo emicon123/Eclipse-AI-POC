@@ -6,8 +6,8 @@ export const TECH_SLOT_DISCOUNTS = [0, 1, 2, 3, 4, 6, 8];
 // The values printed on the population tracks. 
 // Index 0 is the left-most slot (revealed last). 
 // Index 11 is the right-most slot (revealed first).
-// Updated to start at 3 as per user request (was 2).
-export const POPULATION_TRACK = [3, 4, 6, 8, 10, 12, 15, 18, 21, 24, 28, 32];
+// Updated to start at 2. When a player puts a pop on the map, they reveal the next number.
+export const POPULATION_TRACK = [2, 3, 4, 6, 8, 10, 12, 15, 18, 21, 24, 28];
 
 export const DISCOVERY_TILES = [
     { id: 'money_3', name: 'Ancient Wealth', type: 'RESOURCE', label: '+3 Money', description: 'Immediate resource grant.' },
